@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #339BF2;
 }
 
 #subhead {
@@ -9,67 +9,93 @@ body {
     padding: 0;
     background-color: #fff;
     position: relative;
-    margin-top: 
+    top: 0;
 }
 
 header{
-    height: 100px;
+    height: 150px;
     position: fixed;
     margin: 0;
     display: inline;
     width: 100%;
-    background-color: #ddd;
+    background-color: #4444F4;
     padding: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 
 }
 
-header img{
+header img {
+    margin: 0;
+    padding: 0;
     margin-left: 50px;
 }
 
 #navbar {
-    width: 90px;
-    height: 60%;
-    background-color: #fff;
-    top: 100px;
-    
+    width: 52px;
+    height: auto;
+    background-color: #ccc;
+    top: 154px;
+    left: 0px;
     position: fixed;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     font-size: 24px;
-}
-
-#navbar>img {
-    margin: 0 auto;
+    align-content: center;
+    overflow: hidden;
 }
 
 #navbar:hover {
-    width: 10%;
-    left: 90%;
+    width: 8%;
 }
 
-nav {
-    list-style: none;
-    text-align: center; 
+.navIcon {
+    width: 32px;
+    margin: 10px;
 }
 
-#navbar:hover nav li a{
-    display: block;
-}
-
-#navbar:hover img {
-}
-
-nav li {
+.navItem {
+    height: 40px;
     width: 100%;
-    margin: auto;
-    float: right;
-    background-color: #DB001A;
+    padding: 10px;
+    color: #fff;
 }
 
-nav li a,visited {
-    display: block;
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
+.navItem img {
+    height: 32px;
+}
+
+.navItem a {
+    display: none;
+    position: absolute;
+    left: 60px;
+    margin-top: 5px;
+}
+
+#navbar:hover .navItem a {
+    display: inline;
+}
+
+#home {
+    background-color: #4444F4;
+}
+
+#code {
+    background-color: #FF272D;
+}
+
+#social {
+    background-color: #30F826;
+}
+
+#social ul {
+    list-style: none;
     display: none;
 }
 
+#social:hover {
+    height: auto;
+}
+
+#social:hover ul {
+    display: block;
+}
