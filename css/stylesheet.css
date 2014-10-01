@@ -1,5 +1,5 @@
 body {
-    background-color: #339BF2;
+    background-color: #eee;
 }
 
 #subhead {
@@ -9,118 +9,67 @@ body {
     padding: 0;
     background-color: #fff;
     position: relative;
-    top: 0;
+    margin-top: 
 }
 
 header{
-    height: 150px;
+    height: 100px;
     position: fixed;
     margin: 0;
     display: inline;
     width: 100%;
-    background-color: #4444F4;
+    background-color: #ddd;
     padding: 0;
-    top: 0;
-    left: 0;
-    box-shadow: 
 }
 
-header img {
-    margin: 0;
-    padding: 0;
+header img{
     margin-left: 50px;
 }
 
 #navbar {
-    width: 52px;
-    height: auto;
-    background-color: #ccc;
-    top: 154px;
-    left: 0px;
+    width: 90px;
+    height: 60%;
+    background-color: #fff;
+    top: 100px;
+    
     position: fixed;
-    transition: all 0.1s ease;
+    transition: all 0.3s ease;
     font-size: 24px;
-    align-content: center;
-    overflow: hidden;
 }
 
-#navbar:hover {
-    width: 8%;
+#navbar>img {
+    margin: 0 auto;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #navbar:hover {
     width: 10%;
-=======
-.navIcon {
-    width: 32px;
-    margin: 10px;
->>>>>>> FETCH_HEAD
-=======
-.navIcon {
-    width: 32px;
-    margin: 10px;
->>>>>>> FETCH_HEAD
-=======
-.navIcon {
-    width: 32px;
-    margin: 10px;
->>>>>>> FETCH_HEAD
+    left: 90%;
 }
 
-.navItem {
-    height: 40px;
-    width: 100%;
-    padding: 10px;
-    color: #fff;
-}
-
-.navItem img {
-    height: 32px;
-}
-
-.navItem a {
-    display: none;
-    position: absolute;
-    left: 60px;
-    margin-top: 5px;
-}
-
-#navbar:hover .navItem a {
-    display: inline;
-}
-
-#home {
-    background-color: #4444F4;
-}
-
-#code {
-    background-color: #FF272D;
-}
-
-#social {
-    background-color: #30F826;
-}
-
-#social ul {
+nav {
     list-style: none;
+    text-align: center; 
+}
+
+#navbar:hover nav li a{
+    display: block;
+}
+
+#navbar:hover img {
+}
+
+nav li {
+    width: 100%;
+    margin: auto;
+    float: right;
+    background-color: #DB001A;
+}
+
+nav li a,visited {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
     display: none;
 }
 
-#social:hover {
-    height: auto;
-}
-
-#social:hover ul {
-    display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> FETCH_HEAD
-=======
-}
->>>>>>> FETCH_HEAD
