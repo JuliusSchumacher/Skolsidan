@@ -50,8 +50,14 @@ header img {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #navbar:hover {
     width: 10%;
+=======
+.navIcon {
+    width: 32px;
+    margin: 10px;
+>>>>>>> FETCH_HEAD
 =======
 .navIcon {
     width: 32px;
@@ -110,7 +116,11 @@ header img {
 #social:hover ul {
     display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> FETCH_HEAD
 =======
 }
 >>>>>>> FETCH_HEAD
